@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+.Container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  height: 55vh;
+  width: 30vw;
+  background-color: #150b3e;
+  padding: 50px;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.nameAndProfile {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #c7d2fe;
+  border: 2px solid transparent;
+  border-radius: 100px;
+  color: #7c3aed;
+}
+
+.name {
+  font-size: 22px;
+  font-family: 'roboto';
+  color: #d4d2db;
+}
+
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.yourBalance {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #585076;
+}
+
+.balance {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #d4d2db;
+}
+
+.withdraw {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #d4d2db;
+}
+
+.choose {
+  font-size: 20px;
+  font-family: 'roboto';
+  color: #585076;
+}
